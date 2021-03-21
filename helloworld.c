@@ -35,6 +35,8 @@ int main() {
     gpio_set_dir(led, GPIO_OUT);
 
     stdio_init_all();
+    sleep_ms(2000);
+    printf("--------------------\n");
 
     while (true) {
         printf("Hello, World! :%d\n", i++);
